@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>dailyoufit — Link & Katalog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <!-- PROFILE CARD -->
+    <section class="card profile">
+      <div class="avatar">
+        <!-- ganti images/nt1.jpg dengan foto kamu -->
+        <img id="avatar" src="images/nt1.jpg" alt="Foto profil dailyoufit" />
+      </div>
+      <div class="who">
+        <div class="handle">
+          <strong>@nexatech.id</strong>
+          <span class="verified" aria-label="verified">✓</span>
+        </div>
+        <p class="sub">Semua barang bisa langsung pilih tombol di bawah.</p>
+      </div>
+    </section>
+
+    <!-- INFO BANNER -->
+    <section class="banner card">
+      <span class="dot"></span>
+      <p>Tap tombol untuk buka link resmi. Aman & cepat. ✨</p>
+    </section>
+
+    <!-- LINK BUTTONS (ikon = foto yang bisa kamu ganti) -->
+    <ul class="links">
+      <!-- WhatsApp -->
+      <li class="card link" data-key="wa" data-color="#22c55e">
+        <button class="photo" title="Ganti foto ikon (tekan lama)">
+          <img src="images/wa1.jpeg" alt="Foto kecil untuk WhatsApp" />
+        </button>
+        <div class="meta">
+          <h3>Chat WhatsApp</h3>
+          <p>Order / Kerjasama</p>
+        </div>
+        <a class="cta" href="https://wa.me/62895402491757" target="_blank" rel="noopener"> <span class="count">980</span> klik </a>
+      </li>
+
+      <!-- Shopee -->
+      <li class="card link" data-key="shopee" data-color="#ef4444">
+        <button class="photo" title="Ganti foto ikon (tekan lama)">
+          <img src="images/sp1.jpeg" alt="Foto kecil untuk Shopee" />
+        </button>
+        <div class="meta">
+          <h3>Belanja di Shopee</h3>
+          <p>Toko resmi</p>
+        </div>
+        <a class="cta" href="https://nuzar5925-commits.github.io/shopdaily/" target="_blank" rel="noopener"> <span class="count">12.526</span> klik </a>
+      </li>
+
+      <!-- TikTok -->
+      <li class="card link" data-key="tiktok" data-color="#52525b">
+        <button class="photo" title="Ganti foto ikon (tekan lama)">
+          <img src="images/tk1.jpg" alt="Foto kecil untuk TikTok" />
+        </button>
+        <div class="meta">
+          <h3>Belanja di TikTok</h3>
+          <p>Shop resmi</p>
+        </div>
+        <a class="cta" href="https://nuzar5925-commits.github.io/tiktokoutfi/" target="_blank" rel="noopener"> <span class="count">8.989</span> klik </a>
+      </li>
+
+
+
+      <!-- Instagram -->
+      <li class="card link" data-key="instagram" data-color="#e879f9">
+        <button class="photo" title="Ganti foto ikon (tekan lama)">
+          <img src="images/ig1.jpeg" alt="Foto kecil untuk Instagram" />
+        </button>
+        <div class="meta">
+          <h3>Instagram</h3>
+          <p>@dailyoufit.id</p>
+        </div>
+        <a class="cta" href="https://instagram.com/dailyoufit.id" target="_blank" rel="noopener"> <span class="count">12.078</span> klik </a>
+      </li>
+    </ul>
+
+    <footer class="foot muted">© 2025 dailyoufit. All rights reserved.</footer>
+  </main>
+
+  <!-- file input tersembunyi utk ganti foto ikon per item -->
+  <input id="picker" type="file" accept="image/*" hidden />
+  <script src="app.js" defer></script>
+</body>
+</html>
